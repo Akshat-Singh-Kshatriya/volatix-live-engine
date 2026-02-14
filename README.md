@@ -17,19 +17,15 @@ It solves three critical problems:
 
 ## ✨ Key Features
 
-### 1. 🟢 Live Rate Scraping (Bot)
-- Automatically scrapes the **India 10-Year Government Bond Yield** from *Trading Economics* to use as a dynamic Risk-Free Rate.
-- Includes a fallback mechanism to ensure the engine never crashes if the website is down.
-
-### 2. 💰 Dual-Pricing Architecture
+### 1. 💰 Dual-Pricing Architecture
 - **Black-Scholes-Merton (European):** Standard valuation model for NSE options.
 - **Cox-Ross-Rubinstein (Binomial Tree):** Quantifies the "Early Exercise Premium" (American style) to identify arbitrage opportunities.
 
-### 3. 🎲 Monte Carlo Simulations
+### 2. 🎲 Monte Carlo Simulations
 - Runs **1,000+ stochastic price paths** to price path-dependent Exotic Options (Asian Options).
 - Visualizes the "Cone of Uncertainty" for future price movements.
 
-### 4. ⚠️ Advanced Risk Metrics
+### 3. ⚠️ Advanced Risk Metrics
 - **Parametric VaR (99%):** Estimates worst-case daily loss using normal distribution theory.
 - **Historical VaR:** Backtests against actual past returns to catch "Fat Tail" risks.
 - **Volatility Smile:** Simulates the market skew for Out-of-the-Money (OTM) options.
