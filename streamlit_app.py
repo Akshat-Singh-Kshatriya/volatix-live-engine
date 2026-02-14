@@ -186,7 +186,7 @@ def main():
         st.caption("Try: other tickers")
         
         st.subheader("Contract Details")
-        strike_pct = st.slider("Strike (% of Spot)", 10,100)
+        strike_pct = st.slider("Strike (% of Spot)", 10,300)
         days_expiry = st.slider("Days to Expiry", 1,90,30)
         
         st.subheader("Market Parameters")
