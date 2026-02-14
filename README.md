@@ -58,7 +58,6 @@ It solves three critical problems:
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/Akshat-Singh-Kshatriya/volatix-live-engine.git
-    cd volatix-live-engine
     ```
 
 2.  **Install Dependencies**
